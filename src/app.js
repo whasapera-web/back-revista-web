@@ -22,10 +22,10 @@ app.use(express.json());
 app.use("/user", userRoutes);
 app.use("/advertising", advertisingRoutes);
 
-const port = 3000;
+const PORT = 3000;
 
 
 
-app.listen(port, () => {
-    console.log(`funcionando en el ${port}`)
+app.listen(PORT, () => {
+    console.log(`funcionando en el ${PORT}`)
 });

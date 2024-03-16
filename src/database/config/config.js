@@ -1,9 +1,9 @@
 module.exports = {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "revista-online",
-    "host": "127.0.0.1",
+    "username": "whasapera",
+    "password": "8$!Nm#xR.DMUGtk",
+    "database": "whasapera_online",
+    "host": "mysql-whasapera.alwaysdata.net",
     "dialect": "mysql"
   },
   "test": {
