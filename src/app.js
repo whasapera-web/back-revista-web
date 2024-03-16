@@ -26,10 +26,8 @@ app.get("/", (req,res) => {
     res.send("funcionando")
 })
 
-const PORT = 3000;
+const port = normalizePort(process.env.PORT || "3000");
 
-
-
-app.listen(PORT, () => {
-    console.log(`funcionando en el ${PORT}`)
+app.listen(port, () => {
+    console.log(`funcionando en el ${port}`)
 });
