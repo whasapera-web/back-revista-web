@@ -22,6 +22,10 @@ app.use(express.json());
 app.use("/user", userRoutes);
 app.use("/advertising", advertisingRoutes);
 
+app.get("/", (req,res) => {
+    res.send("funcionando")
+})
+
 const PORT = 3000;
 
 
